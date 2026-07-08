@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Imbiss Ambiente — Restaurant</title>
+<meta name="description" content="Imbiss Ambiente — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:title" content="Imbiss Ambiente — Restaurant" />
+<meta property="og:description" content="Imbiss Ambiente — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:image" content="assets/hero.jpg" />
+<link rel="stylesheet" href="fonts.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top" class="v-hero-reverse v-dark s-editorial">
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">Imbiss Ambiente</a>
+  <nav class="nav__links" aria-label="Navigation">
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button class="lang-btn" type="button" data-lang="de">DE</button>
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
+    <a class="nav__cta" href="#contact" data-i18n="nav.cta">Kontakt</a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Menü" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Navigation">
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <a class="btn btn--solid mmenu__cta" href="#contact" data-i18n="hero.cta">Tisch reservieren</a>
+  <div class="lang lang--mobile" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-lang="de">DE</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="es">ES</button>
+  </div>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="hero.eyebrow">Imbiss &amp; Grillküche in Lünen</span></p>
+        <h1 class="hero__title" data-i18n-html="hero.title">Frisch vom Grill,<br><span class="ital">so wie es schmecken soll.</span></h1>
+      </div>
+      <div class="hero__meta">
+        <p class="hero__lead" data-i18n="hero.lead">Döner, Falafel und deftige Grillteller – zubereitet auf Bestellung, mit Fleisch vom eigenen Spieß und Soßen aus der eigenen Küche. Zum Mitnehmen oder gemütlich bei uns vor Ort.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="tel:023067590040" data-i18n="hero.cta">Tisch reservieren</a>
+          <a class="link-arrow" href="mailto:madzia1974@web.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero__figure reveal"><img src="assets/hero.jpg" alt="Imbiss Ambiente" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+    </div>
+  </section>
+
+  <section class="menu" id="karte">
+    <div class="section__index"><span class="num">01</span><span class="rule"></span><span>Speisekarte</span></div>
+    <h2 class="menu__title reveal" data-i18n="offers.title">Unsere Karte</h2>
+    <div class="menu__cats">
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Döner &amp; Dürüm</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Döner im Fladenbrot</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">Kalbfleisch vom Spieß, Salat, Zwiebeln, Tomate, Soße nach Wahl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Döner Dürüm</span><span class="menu__dots"></span><span class="menu__price">7,00 €</span></div><p class="menu__desc">gerolltes Dünnfladenbrot, Fleisch, frisches Gemüse, Soße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Döner-Teller</span><span class="menu__dots"></span><span class="menu__price">10,90 €</span></div><p class="menu__desc">Fleisch mit Pommes oder Reis, Salat und Krautsalat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hähnchen-Döner</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">gegrilltes Hähnchenfleisch, Salat, Zwiebeln, Soße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Dürüm XXL</span><span class="menu__dots"></span><span class="menu__price">9,50 €</span></div><p class="menu__desc">extra große Rolle mit doppelter Fleischportion</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Döner Box</span><span class="menu__dots"></span><span class="menu__price">6,00 €</span></div><p class="menu__desc">Fleisch und Pommes in der Box, mit Soße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Vegetarischer Dürüm</span><span class="menu__dots"></span><span class="menu__price">6,00 €</span></div><p class="menu__desc">gegrilltes Gemüse, Käse, Salat, Kräutersoße</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Falafel &amp; Vegetarisch</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Falafel im Fladenbrot</span><span class="menu__dots"></span><span class="menu__price">6,00 €</span></div><p class="menu__desc">hausgemachte Kichererbsenbällchen, Salat, Sesamsoße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Falafel Dürüm</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">gerollt mit Hummus, Salat und Tahin, vegan</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Falafel-Teller</span><span class="menu__dots"></span><span class="menu__price">9,90 €</span></div><p class="menu__desc">6 Bällchen, Hummus, Salat, Fladenbrot, vegan</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Halloumi-Fladenbrot</span><span class="menu__dots"></span><span class="menu__price">7,50 €</span></div><p class="menu__desc">gegrillter Grillkäse, Salat, Granatapfelsoße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemüse-Teller</span><span class="menu__dots"></span><span class="menu__price">9,50 €</span></div><p class="menu__desc">gegrilltes Gemüse, Reis, Joghurtsoße</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hummus mit Fladenbrot</span><span class="menu__dots"></span><span class="menu__price">4,50 €</span></div><p class="menu__desc">cremiger Kichererbsendip mit Olivenöl</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vom Grill</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Adana-Spieß</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">würziges Hackfleisch am Spieß, Reis, Salat, Fladenbrot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hähnchenspieß</span><span class="menu__dots"></span><span class="menu__price">12,90 €</span></div><p class="menu__desc">marinierte Hähnchenwürfel, Reis, gegrilltes Gemüse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lammkoteletts</span><span class="menu__dots"></span><span class="menu__price">16,50 €</span></div><p class="menu__desc">3 Stück vom Grill, Beilagensalat, Fladenbrot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemischte Grillplatte</span><span class="menu__dots"></span><span class="menu__price">17,90 €</span></div><p class="menu__desc">Adana, Hähnchen, Lamm, Reis, Salat für 1 Person</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Köfte-Teller</span><span class="menu__dots"></span><span class="menu__price">11,50 €</span></div><p class="menu__desc">hausgemachte Hackbällchen, Pommes, Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Grillplatte für 2</span><span class="menu__dots"></span><span class="menu__price">32,90 €</span></div><p class="menu__desc">reichlich gemischtes Fleisch, Beilagen, Fladenbrot</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vorspeisen &amp; Suppen</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Linsensuppe</span><span class="menu__dots"></span><span class="menu__price">4,50 €</span></div><p class="menu__desc">cremige rote Linsen mit Zitrone</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Sucuk gegrillt</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">türkische Knoblauchwurst, angebraten</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Sigara Börek</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">4 knusprige Teigröllchen mit Schafskäse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Cacik</span><span class="menu__dots"></span><span class="menu__price">3,90 €</span></div><p class="menu__desc">Joghurt mit Gurke, Knoblauch und Minze</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemischte Vorspeisenplatte</span><span class="menu__dots"></span><span class="menu__price">9,90 €</span></div><p class="menu__desc">Hummus, Cacik, Börek, Oliven, Fladenbrot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Pommes Frites</span><span class="menu__dots"></span><span class="menu__price">3,50 €</span></div><p class="menu__desc">goldbraun frittiert, mit Ketchup und Mayo</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Salate</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gemischter Salat</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">frische Blattsalate, Tomate, Gurke, Zwiebel, Dressing</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bauernsalat</span><span class="menu__dots"></span><span class="menu__price">7,90 €</span></div><p class="menu__desc">Tomate, Gurke, Paprika, Oliven, Schafskäse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hähnchensalat</span><span class="menu__dots"></span><span class="menu__price">9,90 €</span></div><p class="menu__desc">gemischter Salat mit gegrillten Hähnchenstreifen</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Falafelsalat</span><span class="menu__dots"></span><span class="menu__price">9,50 €</span></div><p class="menu__desc">Salat mit warmen Falafelbällchen und Sesamdressing</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Krautsalat</span><span class="menu__dots"></span><span class="menu__price">2,90 €</span></div><p class="menu__desc">hausgemacht, fein geschnitten, als Beilage</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Für die Kleinen</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Kinder-Chicken-Nuggets</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">5 Stück mit Pommes und Ketchup</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kleiner Döner-Teller</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">kleine Portion Fleisch mit Pommes</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Pommes mit Würstchen</span><span class="menu__dots"></span><span class="menu__price">4,90 €</span></div><p class="menu__desc">Kinderportion mit einem Grillwürstchen</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Getränke &amp; Nachtisch</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Ayran</span><span class="menu__dots"></span><span class="menu__price">1,80 €</span></div><p class="menu__desc">frisch gerührtes Joghurtgetränk, 0,25 l</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Softdrinks</span><span class="menu__dots"></span><span class="menu__price">2,20 €</span></div><p class="menu__desc">Cola, Fanta, Sprite, 0,33 l</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Türkischer Tee</span><span class="menu__dots"></span><span class="menu__price">1,50 €</span></div><p class="menu__desc">im Glas serviert</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Mokka</span><span class="menu__dots"></span><span class="menu__price">2,50 €</span></div><p class="menu__desc">starker türkischer Kaffee</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Baklava</span><span class="menu__dots"></span><span class="menu__price">4,50 €</span></div><p class="menu__desc">2 Stück, süßes Blätterteiggebäck mit Pistazie</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Sütlac</span><span class="menu__dots"></span><span class="menu__price">3,90 €</span></div><p class="menu__desc">Milchreis nach Hausrezept</p></div>
+        </div>
+      </div></div>
+    <p class="menu__note reveal" data-i18n="offers.note">Alle Preise sind Beispielangaben und können sich je nach Saison und Tagesangebot ändern. Aktuelle Preise erfahren Sie gern telefonisch oder direkt bei uns.</p>
+  </section>
+
+  <section class="gallery" id="galerie">
+    <div class="section__index"><span class="num">02</span><span class="rule"></span><span data-i18n="gal.label">Galerie</span></div>
+    <h2 class="gallery__title reveal" data-i18n="gal.title">Einblicke</h2>
+    <div class="gallery__grid reveal"><div class="gtile"><img src="assets/gallery_1.jpg" alt="Imbiss Ambiente – Eindruck 1" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_2.jpg" alt="Imbiss Ambiente – Eindruck 2" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_3.jpg" alt="Imbiss Ambiente – Eindruck 3" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_4.jpg" alt="Imbiss Ambiente – Eindruck 4" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_5.jpg" alt="Imbiss Ambiente – Eindruck 5" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_6.jpg" alt="Imbiss Ambiente – Eindruck 6" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__index"><span class="num">03</span><span class="rule"></span><span data-i18n="nav.about">Über uns</span></div>
+    <div class="about__body">
+      <figure class="about__figure reveal"><img src="assets/about.jpg" alt="Imbiss Ambiente – Über uns" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+      <div class="about__text">
+        <h2 class="reveal" data-i18n-html="about.h2">Ein bisschen Heimat auf dem Teller – das ist <span class="ital">Imbiss Ambiente.</span></h2>
+        <p class="reveal" data-i18n="about.p1">Bei uns gibt es keine Fertigware aus der Mikrowelle. Das Gemüse wird morgens geschnitten, der Teig für die Fladen frisch aufgebacken und der Spieß über echter Grillhitze gedreht. Was einfach klingt, macht am Ende den Unterschied im Geschmack.</p>
+        <p class="reveal" data-i18n="about.p2">Wir sind ein kleiner Familienbetrieb mitten in Lünen. Viele unserer Gäste kennen wir mit Namen und wissen längst, wie sie ihren Teller mögen – mit extra scharf, ohne Zwiebeln oder mit einer Extraportion Knoblauchsoße. Genau dieses Vertrauen ist uns am wichtigsten.</p>
+        <ul class="tags reveal">
+          <li data-i18n="tag.strength">Grillküche</li>
+          <li data-i18n="tag.fatloss">Hausgemacht</li>
+          <li data-i18n="tag.nutrition">Frische Zutaten</li>
+          <li data-i18n="tag.mindset">Herzlich</li>
+        </ul>
+        <p class="about__langs reveal" data-i18n="about.langs">Auf Deutsch · English · Español</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hours" id="zeiten">
+    <div class="section__index"><span class="num">04</span><span class="rule"></span><span data-i18n="hrs.label">Zeiten</span></div>
+    <div class="hours__body">
+      <h2 class="hours__title reveal" data-i18n="hrs.title">Öffnungszeiten</h2>
+      <div class="hours__grid reveal"><div class="hrow"><span class="hrow__d">Montag</span><span class="hrow__t">Ruhetag</span></div><div class="hrow"><span class="hrow__d">Dienstag – Donnerstag</span><span class="hrow__t">11:00 – 22:00 Uhr</span></div><div class="hrow"><span class="hrow__d">Freitag – Samstag</span><span class="hrow__t">11:00 – 23:30 Uhr</span></div><div class="hrow"><span class="hrow__d">Sonntag &amp; Feiertage</span><span class="hrow__t">12:00 – 22:00 Uhr</span></div></div>
+      <p class="hours__note reveal" data-i18n="hrs.note">An Feiertagen können die Zeiten abweichen.</p>
+    </div>
+  </section>
+
+  <section class="location" id="standort">
+    <div class="section__index"><span class="num">05</span><span class="rule"></span><span>Standort</span></div>
+    <div class="loc__body reveal"><div class="loc__row"><span class="loc__k">Gebiet</span><span class="loc__v">Lünen Innenstadt</span></div></div>
+  </section>
+
+  <section class="faq">
+    <div class="section__index"><span class="num">06</span><span class="rule"></span><span data-i18n="faq.label">FAQ</span></div>
+    <h2 class="faq__title reveal" data-i18n="faq.title">Häufige Fragen</h2>
+    <div class="faq__list">
+      <div class="faq__item reveal"><h3 data-i18n="faq1.q">Kann ich vorbestellen und abholen?</h3><p data-i18n="faq1.a">Ja, sehr gern. Rufen Sie einfach unter (02306) 7590040 an und sagen uns, was Sie möchten und wann Sie vorbeikommen. Dann steht alles frisch und heiß für Sie bereit, ohne Wartezeit.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq2.q">Gibt es auch vegetarische und vegane Gerichte?</h3><p data-i18n="faq2.a">Auf jeden Fall. Unser Falafel-Teller und der Falafel-Dürüm sind komplett vegan, dazu gibt es diverse vegetarische Vorspeisen, gegrilltes Gemüse und frische Salate. Sprechen Sie uns einfach an, wir finden für jeden etwas.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq3.q">Haben Sie Sitzplätze vor Ort?</h3><p data-i18n="faq3.a">Ja, bei uns können Sie gemütlich Platz nehmen und in Ruhe essen. An Wochenenden lohnt sich eine kurze Reservierung, gerade abends wird es bei uns schnell voll.</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="section__index"><span class="num">07</span><span class="rule"></span><span data-i18n="nav.contact">Kontakt</span></div>
+    <h2 class="cta__title reveal" data-i18n-html="cta.title">Hunger bekommen?<br><span class="ital">Reservieren Sie sich einen Platz.</span></h2>
+    <p class="cta__lead reveal" data-i18n="cta.lead">Ob schnell zum Mitnehmen oder in Ruhe bei uns vor Ort – wir freuen uns auf Ihren Besuch. Rufen Sie an und sichern Sie sich Ihren Tisch.</p>
+    <div class="cta__actions reveal">
+      <a class="btn btn--solid" href="tel:023067590040">Anrufen · (02306) 7590040</a>
+      <a class="link-arrow" href="mailto:madzia1974@web.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a class="footer__brand" href="#top">Imbiss Ambiente</a>
+    <nav class="footer__social" aria-label="Social Media">
+      <a href="mailto:madzia1974@web.de">E-Mail</a>
+      <a href="tel:023067590040">Anrufen</a>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Imbiss Ambiente · <span data-i18n="footer.role">Restaurant</span></p>
+    <nav class="footer__legal" aria-label="Rechtliches">
+      <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+    </nav>
+    <p class="footer__claim" data-i18n="footer.claim">Imbiss Ambiente</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
