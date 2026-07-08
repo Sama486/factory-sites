@@ -177,8 +177,11 @@ body.menu-open{ overflow:hidden }
 
 /* ---------- ABOUT ---------- */
 .about{ max-width:var(--maxw); margin:0 auto; padding:clamp(4.5rem,9vw,7rem) clamp(1.4rem,4vw,3rem) }
-.about__body{ display:grid; grid-template-columns:1fr 1.2fr; gap:clamp(2rem,6vw,5rem); align-items:center }
-.about__figure{ aspect-ratio:4/5; overflow:hidden; border-radius:3px; border:1px solid var(--line) }
+/* equal-height columns: the image fills the text column's height so the two never
+   look mismatched. A min-height floor keeps it from becoming a thin strip when the
+   text is short. (Mobile restores a natural banner ratio — see media query.) */
+.about__body{ display:grid; grid-template-columns:1fr 1.2fr; gap:clamp(2rem,6vw,5rem); align-items:stretch }
+.about__figure{ height:100%; min-height:clamp(320px,34vw,480px); overflow:hidden; border-radius:3px; border:1px solid var(--line) }
 .about__figure img{ width:100%; height:100%; object-fit:cover; object-position:center 20% }
 .about__text h2{ font-size:clamp(2.6rem,6vw,4.4rem) }
 .about__text h2 + p{ margin-top:1.6rem }
@@ -283,13 +286,15 @@ body.menu-open{ overflow:hidden }
 
 /* ---------- responsive ---------- */
 @media (max-width:900px){
+  /* stacked: image becomes a full-width banner with a natural ratio (no small
+     floating box, no forced equal-height) so the transition stays harmonious. */
   .hero__inner{ grid-template-columns:1fr }
   .hero__head, .hero__meta{ grid-column:1 }
-  .hero__figure{ grid-column:1; grid-row:auto; max-width:360px; aspect-ratio:4/5 }
-  .about__body{ grid-template-columns:1fr; gap:2.5rem }
-  .about__figure{ max-width:380px }
-  /* stats / offers / process now use auto-fit grids — no fixed-column overrides
-     needed; they collapse smoothly on their own down to 1 column. */
+  .hero__figure{ grid-column:1; grid-row:auto; width:100%; max-width:100%;
+    height:auto; min-height:0; aspect-ratio:16/10 }
+  .about__body{ grid-template-columns:1fr; gap:2.2rem }
+  .about__figure{ width:100%; max-width:100%; height:auto; min-height:0; aspect-ratio:16/10 }
+  /* stats / offers / process use auto-fit grids — they collapse on their own. */
   /* header collapses into hamburger menu */
   .nav__links{ display:none }
   .nav__right .lang{ display:none }
@@ -301,8 +306,8 @@ body.menu-open{ overflow:hidden }
 }
 @media (max-width:520px){
   .footer__bottom{ flex-direction:column; align-items:flex-start }
-  .hero__figure{ max-width:100% }
-  .about__figure{ max-width:100% }
+  /* portrait-ish banner reads better on a narrow phone */
+  .hero__figure, .about__figure{ aspect-ratio:4/3 }
 }
 
 /* ---------- new section blocks ---------- */
@@ -412,7 +417,7 @@ h1,h2,h3{ padding-block:.02em; }
 .v-hero-center .hero__inner{ grid-template-columns:1fr; text-align:center; justify-items:center; }
 .v-hero-center .hero__lead{ margin-inline:auto; }
 .v-hero-center .hero__actions{ justify-content:center; }
-.v-hero-center .hero__figure{ grid-row:auto; max-width:560px; width:100%; aspect-ratio:16/10; margin-top:1rem; }
+.v-hero-center .hero__figure{ grid-row:auto; max-width:560px; width:100%; height:auto; min-height:0; aspect-ratio:16/10; margin-top:1rem; }
 .v-hero-reverse .hero__inner{ grid-template-columns:1fr 1.5fr; }
 .v-hero-reverse .hero__figure{ grid-column:1; grid-row:1 / span 2; }
 .v-hero-reverse .hero__head,.v-hero-reverse .hero__meta{ grid-column:2; }
