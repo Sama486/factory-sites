@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Gaststätte Poseidon — Restaurant</title>
+<meta name="description" content="Gaststätte Poseidon — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:title" content="Gaststätte Poseidon — Restaurant" />
+<meta property="og:description" content="Gaststätte Poseidon — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:image" content="assets/hero.jpg" />
+<link rel="stylesheet" href="fonts.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top" class="v-hero-reverse v-light s-poster">
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">Gaststätte Poseidon</a>
+  <nav class="nav__links" aria-label="Navigation">
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button class="lang-btn" type="button" data-lang="de">DE</button>
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
+    <a class="nav__cta" href="#contact" data-i18n="nav.cta">Kontakt</a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Menü" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Navigation">
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <a class="btn btn--solid mmenu__cta" href="#contact" data-i18n="hero.cta">Tisch reservieren</a>
+  <div class="lang lang--mobile" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-lang="de">DE</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="es">ES</button>
+  </div>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="hero.eyebrow">Griechische Küche in Lünen</span></p>
+        <h1 class="hero__title" data-i18n-html="hero.title">Griechische Gastfreundschaft,<br><span class="ital">wie zu Hause am Meer.</span></h1>
+      </div>
+      <div class="hero__meta">
+        <p class="hero__lead" data-i18n="hero.lead">Frisch vom Grill, hausgemachte Saucen und ein Glas Wein wie in einer echten Taverne. Mitten in Lünen, seit vielen Jahren mit denselben Rezepten.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="tel:0230613494" data-i18n="hero.cta">Tisch reservieren</a>
+          <a class="link-arrow" href="mailto:info@poseidon-luenen.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero__figure reveal"><img src="assets/hero.jpg" alt="Gaststätte Poseidon" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+    </div>
+  </section>
+
+  <section class="menu" id="karte">
+    <div class="section__index"><span class="num">01</span><span class="rule"></span><span>Speisekarte</span></div>
+    <h2 class="menu__title reveal" data-i18n="offers.title">Unsere Karte</h2>
+    <div class="menu__cats">
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vorspeisen &amp; Meze</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Tzatziki</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Joghurt, Gurke, Knoblauch, Olivenöl, Fladenbrot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gebackener Feta</span><span class="menu__dots"></span><span class="menu__price">7,50 €</span></div><p class="menu__desc">Schafskäse im Ofen mit Tomaten, Paprika, Oregano</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Dolmades</span><span class="menu__dots"></span><span class="menu__price">6,90 €</span></div><p class="menu__desc">Gefüllte Weinblätter mit Reis, dazu Zitronensauce</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Saganaki</span><span class="menu__dots"></span><span class="menu__price">7,90 €</span></div><p class="menu__desc">In der Pfanne gebratener Kefalograviera-Käse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gebackene Calamari</span><span class="menu__dots"></span><span class="menu__price">8,90 €</span></div><p class="menu__desc">Frittierte Tintenfischringe mit Knoblauchdip</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bifteki-Häppchen</span><span class="menu__dots"></span><span class="menu__price">8,50 €</span></div><p class="menu__desc">Kleine Hacksteaks mit Feta gefüllt</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Meze-Teller für zwei</span><span class="menu__dots"></span><span class="menu__price">16,90 €</span></div><p class="menu__desc">Auswahl warmer und kalter Vorspeisen</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Suppen &amp; Salate</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Griechischer Bauernsalat</span><span class="menu__dots"></span><span class="menu__price">9,90 €</span></div><p class="menu__desc">Tomaten, Gurke, Paprika, Zwiebeln, Oliven, Feta</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kleiner grüner Salat</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">Blattsalate mit Hausdressing</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hirtensalat mit Gyros</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Bauernsalat mit gebratenem Gyros obendrauf</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Fassolada</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">Weiße Bohnensuppe mit Gemüse und Olivenöl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Zitronen-Reissuppe</span><span class="menu__dots"></span><span class="menu__price">6,90 €</span></div><p class="menu__desc">Avgolemono mit Huhn und Ei</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vom Holzkohlegrill</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Souvlaki vom Schwein</span><span class="menu__dots"></span><span class="menu__price">15,90 €</span></div><p class="menu__desc">Zwei Spieße, Reis, Pommes, Tzatziki, Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bifteki</span><span class="menu__dots"></span><span class="menu__price">14,90 €</span></div><p class="menu__desc">Hacksteak mit Feta gefüllt, Beilagen nach Wahl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lammkoteletts</span><span class="menu__dots"></span><span class="menu__price">21,90 €</span></div><p class="menu__desc">Vier Koteletts vom Grill, Rosmarinkartoffeln</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemischte Grillplatte</span><span class="menu__dots"></span><span class="menu__price">19,90 €</span></div><p class="menu__desc">Gyros, Souvlaki, Bifteki, Suzuki, reichlich Beilagen</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hähnchenspieß</span><span class="menu__dots"></span><span class="menu__price">14,50 €</span></div><p class="menu__desc">Marinierte Hähnchenbrust vom Grill, Reis, Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Suzuki</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Würzige Hackfleischröllchen mit Zaziki</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Poseidon-Platte für zwei</span><span class="menu__dots"></span><span class="menu__price">36,90 €</span></div><p class="menu__desc">Große Auswahl vom Grill, Beilagen, Tzatziki</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Gyros-Spezialitäten</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros komplett</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Gyros mit Reis, Pommes, Tzatziki und Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros überbacken</span><span class="menu__dots"></span><span class="menu__price">14,90 €</span></div><p class="menu__desc">Mit Feta und Käse im Ofen überbacken, Pommes</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros-Teller mit Metaxasauce</span><span class="menu__dots"></span><span class="menu__price">15,50 €</span></div><p class="menu__desc">Gyros in cremiger Metaxasauce, überbacken</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros-Pita</span><span class="menu__dots"></span><span class="menu__price">9,90 €</span></div><p class="menu__desc">Fladenbrot mit Gyros, Zwiebeln, Tzatziki, Pommes</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kinder-Gyros</span><span class="menu__dots"></span><span class="menu__price">8,50 €</span></div><p class="menu__desc">Kleine Portion Gyros mit Pommes</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Fisch &amp; Meeresfrüchte</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gegrillte Dorade</span><span class="menu__dots"></span><span class="menu__price">18,90 €</span></div><p class="menu__desc">Ganze Dorade vom Grill mit Zitrone und Olivenöl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gambas in Knoblauchöl</span><span class="menu__dots"></span><span class="menu__price">17,50 €</span></div><p class="menu__desc">Riesengarnelen in Olivenöl mit Knoblauch, Brot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Calamari gegrillt</span><span class="menu__dots"></span><span class="menu__price">16,90 €</span></div><p class="menu__desc">Tintenfisch vom Grill mit Reis und Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Fischplatte</span><span class="menu__dots"></span><span class="menu__price">22,90 €</span></div><p class="menu__desc">Gemischte Auswahl aus Fisch und Meeresfrüchten</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lachsfilet</span><span class="menu__dots"></span><span class="menu__price">17,90 €</span></div><p class="menu__desc">Gegrilltes Lachsfilet mit Ofengemüse</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Aus dem Ofen</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Moussaka</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Auberginen, Hackfleisch, Kartoffeln, Béchamel</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Pastitsio</span><span class="menu__dots"></span><span class="menu__price">13,50 €</span></div><p class="menu__desc">Griechischer Nudelauflauf mit Hackfleisch und Béchamel</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemista</span><span class="menu__dots"></span><span class="menu__price">12,90 €</span></div><p class="menu__desc">Mit Reis gefüllte Tomaten und Paprika aus dem Ofen</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lammhaxe</span><span class="menu__dots"></span><span class="menu__price">19,90 €</span></div><p class="menu__desc">Geschmort mit Kräutern, dazu Ofenkartoffeln</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kleftiko</span><span class="menu__dots"></span><span class="menu__price">20,50 €</span></div><p class="menu__desc">Zart geschmortes Lamm im Tontopf mit Gemüse</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vegetarisch</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gemüse-Souvlaki</span><span class="menu__dots"></span><span class="menu__price">12,50 €</span></div><p class="menu__desc">Gegrilltes Gemüse am Spieß mit Reis und Tzatziki</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Briam</span><span class="menu__dots"></span><span class="menu__price">11,90 €</span></div><p class="menu__desc">Ofengemüse mit Tomate, Zucchini, Kartoffeln, Olivenöl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Feta-Teller</span><span class="menu__dots"></span><span class="menu__price">10,90 €</span></div><p class="menu__desc">Gebackener Feta mit Gemüse, dazu Brot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Vegetarische Platte</span><span class="menu__dots"></span><span class="menu__price">14,90 €</span></div><p class="menu__desc">Auswahl fleischloser Vorspeisen und Beilagen</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Nachspeisen &amp; Getränke</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Baklava</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">Blätterteig mit Nüssen und Honig</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Galaktoboureko</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Grießpudding im Filoteig mit Sirup</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Joghurt mit Honig und Walnüssen</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">Griechischer Joghurt, klassisch serviert</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Ouzo 2 cl</span><span class="menu__dots"></span><span class="menu__price">3,20 €</span></div><p class="menu__desc">Griechischer Anisschnaps</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Metaxa 5 Sterne 2 cl</span><span class="menu__dots"></span><span class="menu__price">3,90 €</span></div><p class="menu__desc">Griechischer Weinbrand</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Griechischer Rotwein 0,2 l</span><span class="menu__dots"></span><span class="menu__price">4,90 €</span></div><p class="menu__desc">Offener Hauswein aus der Karaffe</p></div>
+        </div>
+      </div></div>
+    <p class="menu__note reveal" data-i18n="offers.note">Alle Preise sind Beispielangaben. Es gilt die aktuelle Karte im Lokal. Für Allergene und Zusatzstoffe fragen Sie bitte unser Personal.</p>
+  </section>
+
+  <section class="gallery" id="galerie">
+    <div class="section__index"><span class="num">02</span><span class="rule"></span><span data-i18n="gal.label">Galerie</span></div>
+    <h2 class="gallery__title reveal" data-i18n="gal.title">Einblicke</h2>
+    <div class="gallery__grid reveal"><div class="gtile"><img src="assets/gallery_1.jpg" alt="Gaststätte Poseidon – Eindruck 1" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_2.jpg" alt="Gaststätte Poseidon – Eindruck 2" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_3.jpg" alt="Gaststätte Poseidon – Eindruck 3" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_4.jpg" alt="Gaststätte Poseidon – Eindruck 4" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_5.jpg" alt="Gaststätte Poseidon – Eindruck 5" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_6.jpg" alt="Gaststätte Poseidon – Eindruck 6" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__index"><span class="num">03</span><span class="rule"></span><span data-i18n="nav.about">Über uns</span></div>
+    <div class="about__body">
+      <figure class="about__figure reveal"><img src="assets/about.jpg" alt="Gaststätte Poseidon – Über uns" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+      <div class="about__text">
+        <h2 class="reveal" data-i18n-html="about.h2">Ein Stück Griechenland in <span class="ital">Gaststätte Poseidon.</span></h2>
+        <p class="reveal" data-i18n="about.p1">Bei uns kommt der Lammrücken auf den Holzkohlegrill, der Tzatziki wird morgens frisch angerührt und die Kartoffeln braten wir in Olivenöl mit Oregano. Kein Convenience, keine Abkürzungen. Was auf den Teller kommt, würden wir auch der eigenen Familie servieren.</p>
+        <p class="reveal" data-i18n="about.p2">Ob Familienfeier, Feierabendbier mit Souvlaki oder ein ruhiges Essen zu zweit: Bei uns sitzen Sie gemütlich, werden ehrlich beraten und gehen satt nach Hause. Größere Runden richten wir gerne aus, sprechen Sie uns einfach an.</p>
+        <ul class="tags reveal">
+          <li data-i18n="tag.strength">Holzkohlegrill</li>
+          <li data-i18n="tag.fatloss">Hausgemacht</li>
+          <li data-i18n="tag.nutrition">Frische Zutaten</li>
+          <li data-i18n="tag.mindset">Gastfreundschaft</li>
+        </ul>
+        <p class="about__langs reveal" data-i18n="about.langs">Auf Deutsch · English · Español</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hours" id="zeiten">
+    <div class="section__index"><span class="num">04</span><span class="rule"></span><span data-i18n="hrs.label">Zeiten</span></div>
+    <div class="hours__body">
+      <h2 class="hours__title reveal" data-i18n="hrs.title">Öffnungszeiten</h2>
+      <div class="hours__grid reveal"><div class="hrow"><span class="hrow__d">Montag</span><span class="hrow__t">Ruhetag</span></div><div class="hrow"><span class="hrow__d">Dienstag – Freitag</span><span class="hrow__t">17:00 – 23:00</span></div><div class="hrow"><span class="hrow__d">Samstag</span><span class="hrow__t">17:00 – 23:30</span></div><div class="hrow"><span class="hrow__d">Sonntag &amp; Feiertage</span><span class="hrow__t">12:00 – 22:00</span></div></div>
+      <p class="hours__note reveal" data-i18n="hrs.note">An Feiertagen können die Zeiten abweichen.</p>
+    </div>
+  </section>
+
+  <section class="location" id="standort">
+    <div class="section__index"><span class="num">05</span><span class="rule"></span><span>Standort</span></div>
+    <div class="loc__body reveal"><div class="loc__row"><span class="loc__k">Gebiet</span><span class="loc__v">Lünen Zentrum</span></div></div>
+  </section>
+
+  <section class="faq">
+    <div class="section__index"><span class="num">06</span><span class="rule"></span><span data-i18n="faq.label">FAQ</span></div>
+    <h2 class="faq__title reveal" data-i18n="faq.title">Häufige Fragen</h2>
+    <div class="faq__list">
+      <div class="faq__item reveal"><h3 data-i18n="faq1.q">Muss ich vorab einen Tisch reservieren?</h3><p data-i18n="faq1.a">An Wochenenden und Feiertagen empfehlen wir eine Reservierung, damit Sie sicher einen Platz haben. Unter der Woche kommen Sie meist auch spontan unter. Ein kurzer Anruf unter (02306) 13494 genügt.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq2.q">Kann ich bei Ihnen eine Feier ausrichten?</h3><p data-i18n="faq2.a">Ja, sehr gerne. Für Geburtstage, Taufen oder Firmenessen stellen wir Tische zusammen und besprechen mit Ihnen ein passendes Menü. Rufen Sie uns an, dann finden wir den richtigen Rahmen.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq3.q">Gibt es auch vegetarische Gerichte?</h3><p data-i18n="faq3.a">Natürlich. Von gefüllten Weinblättern über gebackenen Feta bis zu Gemüse-Souvlaki und großen griechischen Salaten ist einiges Fleischloses dabei. Sprechen Sie uns an, wir beraten Sie gerne.</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="section__index"><span class="num">07</span><span class="rule"></span><span data-i18n="nav.contact">Kontakt</span></div>
+    <h2 class="cta__title reveal" data-i18n-html="cta.title">Reservieren Sie Ihren <span class="ital">Tisch bei Poseidon.</span></h2>
+    <p class="cta__lead reveal" data-i18n="cta.lead">Ein Anruf genügt und Ihr Platz ist sicher. Wir freuen uns auf Ihren Besuch.</p>
+    <div class="cta__actions reveal">
+      <a class="btn btn--solid" href="tel:0230613494">Anrufen · (02306) 13494</a>
+      <a class="link-arrow" href="mailto:info@poseidon-luenen.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a class="footer__brand" href="#top">Gaststätte Poseidon</a>
+    <nav class="footer__social" aria-label="Social Media">
+      <a href="mailto:info@poseidon-luenen.de">E-Mail</a>
+      <a href="tel:0230613494">Anrufen</a>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Gaststätte Poseidon · <span data-i18n="footer.role">Restaurant</span></p>
+    <nav class="footer__legal" aria-label="Rechtliches">
+      <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+    </nav>
+    <p class="footer__claim" data-i18n="footer.claim">Gaststätte Poseidon</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
