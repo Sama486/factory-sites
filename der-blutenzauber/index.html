@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Der Blütenzauber — Blumen</title>
+<meta name="description" content="Der Blütenzauber — Blumen · Kiel — Website-Entwurf." />
+<meta property="og:title" content="Der Blütenzauber — Blumen" />
+<meta property="og:description" content="Der Blütenzauber — Blumen · Kiel — Website-Entwurf." />
+<meta property="og:image" content="assets/hero.jpg" />
+<link rel="stylesheet" href="fonts.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top" class="v-hero-reverse v-dark s-minimal">
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">Der Blütenzauber</a>
+  <nav class="nav__links" aria-label="Navigation">
+    <a href="#galerie">Galerie</a>
+    <a href="#leistungen">Anlässe &amp; Sortiment</a>
+    <a href="#karte">Sträuße &amp; Abo</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button class="lang-btn" type="button" data-lang="de">DE</button>
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
+    <a class="nav__cta" href="#contact" data-i18n="nav.cta">Kontakt</a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Menü" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Navigation">
+    <a href="#galerie">Galerie</a>
+    <a href="#leistungen">Anlässe &amp; Sortiment</a>
+    <a href="#karte">Sträuße &amp; Abo</a>
+    <a href="#about">Über uns</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <a class="btn btn--solid mmenu__cta" href="#contact" data-i18n="hero.cta">Anfragen</a>
+  <div class="lang lang--mobile" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-lang="de">DE</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="es">ES</button>
+  </div>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="hero.eyebrow">Floristik aus Kiel</span></p>
+        <h1 class="hero__title" data-i18n-html="hero.title">Blumen, die <span class="ital">Geschichten</span><br>erzählen</h1>
+      </div>
+      <div class="hero__meta">
+        <p class="hero__lead" data-i18n="hero.lead">Vom spontanen Gruß bis zur kompletten Hochzeitsfloristik: Wir binden von Hand, mit frischer Ware vom Großmarkt und einem Blick für das, was zusammenpasst.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="tel:04317858248" data-i18n="hero.cta">Anfragen</a>
+          <a class="link-arrow" href="mailto:derbluetenzauber@t-online.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero__figure reveal"><img src="assets/hero.jpg" alt="Der Blütenzauber" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+    </div>
+  </section>
+
+  <section class="gallery" id="galerie">
+    <div class="section__index"><span class="num">01</span><span class="rule"></span><span data-i18n="gal.label">Galerie</span></div>
+    <h2 class="gallery__title reveal" data-i18n="gal.title">Einblicke</h2>
+    <div class="gallery__grid reveal"><div class="gtile"><img src="assets/gallery_1.jpg" alt="Der Blütenzauber – Eindruck 1" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_2.jpg" alt="Der Blütenzauber – Eindruck 2" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_3.jpg" alt="Der Blütenzauber – Eindruck 3" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_4.jpg" alt="Der Blütenzauber – Eindruck 4" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_5.jpg" alt="Der Blütenzauber – Eindruck 5" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_6.jpg" alt="Der Blütenzauber – Eindruck 6" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div></div>
+  </section>
+
+  <section class="services" id="leistungen">
+    <div class="section__index"><span class="num">02</span><span class="rule"></span><span>Anlässe &amp; Sortiment</span></div>
+    <h2 class="services__title reveal" data-i18n="services.title">Für jeden Anlass</h2>
+    <div class="services__grid"><article class="svc reveal"><h3 class="svc__title">Geburtstag</h3><p class="svc__desc">Fröhliche, farbenfrohe Sträuße, die zum Geburtstagskind und seiner Lieblingsfarbe passen.</p></article><article class="svc reveal"><h3 class="svc__title">Liebe &amp; Jahrestag</h3><p class="svc__desc">Romantische Arrangements mit Rosen und feinen Akzenten für den besonderen Moment zu zweit.</p></article><article class="svc reveal"><h3 class="svc__title">Saisonales</h3><p class="svc__desc">Was gerade blüht: Tulpen im Frühjahr, Dahlien im Spätsommer, Amaryllis zur Weihnachtszeit.</p></article><article class="svc reveal"><h3 class="svc__title">Gute Besserung</h3><p class="svc__desc">Freundliche, langlebige Sträuße, die auch am Krankenbett lange schön bleiben und Mut machen.</p></article><article class="svc reveal"><h3 class="svc__title">Zur Geburt</h3><p class="svc__desc">Zarte Sträuße in sanften Tönen, gern in Rosa, Blau oder frischem Weiß zum Willkommensgruß.</p></article><article class="svc reveal"><h3 class="svc__title">Trauerfloristik</h3><p class="svc__desc">Würdevolle Kränze, Trauergestecke und Sargschmuck, individuell und mit persönlicher Beratung.</p></article><article class="svc reveal"><h3 class="svc__title">Hochzeitsfloristik</h3><p class="svc__desc">Vom Brautstrauß über Anstecker bis zur kompletten Tisch- und Raumdekoration – alles aus einer Hand.</p></article><article class="svc reveal"><h3 class="svc__title">Geschäftskunden</h3><p class="svc__desc">Regelmäßiger Blumenschmuck für Empfang, Praxis oder Restaurant – zuverlässig und gepflegt.</p></article><article class="svc reveal"><h3 class="svc__title">Zimmerpflanzen</h3><p class="svc__desc">Grünpflanzen und Blüher für Zuhause, inklusive Tipps zu Standort und Pflege.</p></article><article class="svc reveal"><h3 class="svc__title">Trockenblumen</h3><p class="svc__desc">Langlebige Sträuße und Kränze aus Trockenblumen, die monatelang schön bleiben.</p></article><article class="svc reveal"><h3 class="svc__title">Gestecke &amp; Tischschmuck</h3><p class="svc__desc">Arrangements in Schale oder Vase für Tafel, Fensterbank oder als Mitbringsel.</p></article><article class="svc reveal"><h3 class="svc__title">Lieferservice</h3><p class="svc__desc">Zustellung im Kieler Stadtgebiet und Umland – auf Wunsch mit persönlicher Grußkarte.</p></article></div>
+  </section>
+
+  <section class="menu" id="karte">
+    <div class="section__index"><span class="num">03</span><span class="rule"></span><span>Sträuße &amp; Abo</span></div>
+    <h2 class="menu__title reveal" data-i18n="offers.title">Sträuße &amp; Blumenabo</h2>
+    <div class="menu__cats">
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Handgebundene Sträuße</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Kleiner Gruß</span><span class="menu__dots"></span><span class="menu__price">ab 18 €</span></div><p class="menu__desc">Zarter Strauß für zwischendurch, saisonal gebunden.</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Mittlerer Strauß</span><span class="menu__dots"></span><span class="menu__price">ab 32 €</span></div><p class="menu__desc">Ausgewogen und üppiger – der Klassiker für die meisten Anlässe.</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Großer Strauß</span><span class="menu__dots"></span><span class="menu__price">ab 49 €</span></div><p class="menu__desc">Voluminös und festlich, mit hochwertigen Schnittblumen.</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Luxus-Strauß</span><span class="menu__dots"></span><span class="menu__price">ab 75 €</span></div><p class="menu__desc">Große Geste mit edlen Sorten und aufwendiger Bindung.</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Blumenabo</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Wöchentlich</span><span class="menu__dots"></span><span class="menu__price">ab 25 € / Woche</span></div><p class="menu__desc">Jede Woche ein frischer saisonaler Strauß, geliefert nach Hause oder ins Büro.</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">14-tägig</span><span class="menu__dots"></span><span class="menu__price">ab 28 € / Lieferung</span></div><p class="menu__desc">Alle zwei Wochen frische Blumen – ideal fürs Büro oder die Praxis.</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Monatlich</span><span class="menu__dots"></span><span class="menu__price">ab 34 € / Monat</span></div><p class="menu__desc">Einmal im Monat ein besonderer Strauß, abgestimmt auf die Jahreszeit.</p></div>
+        </div>
+      </div></div>
+    <p class="menu__note reveal" data-i18n="offers.note">Alle Preise sind Beispiele und variieren je nach Saison, Blumenauswahl und Größe. Fragen Sie uns gern nach einem individuellen Angebot.</p>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__index"><span class="num">04</span><span class="rule"></span><span data-i18n="nav.about">Über uns</span></div>
+    <div class="about__body">
+      <figure class="about__figure reveal"><img src="assets/about.jpg" alt="Der Blütenzauber – Über uns" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+      <div class="about__text">
+        <h2 class="reveal" data-i18n-html="about.h2">Handgebunden, saisonal, mit Herz – das ist <span class="ital">Der Blütenzauber.</span></h2>
+        <p class="reveal" data-i18n="about.p1">Seit Jahren binden wir in unserer Kieler Werkstatt Sträuße und Gestecke, die nicht nach Massenware aussehen. Jeder Strauß entsteht frei Hand, abgestimmt auf Anlass, Farbwunsch und das, was die Saison gerade hergibt.</p>
+        <p class="reveal" data-i18n="about.p2">Wir arbeiten bevorzugt mit regionalen Erzeugern und holen unsere Schnittblumen mehrmals pro Woche frisch. Was heute nicht schön genug ist, kommt nicht in den Strauß – so einfach ist das bei uns.</p>
+        <ul class="tags reveal">
+          <li data-i18n="tag.strength">Handgebunden</li>
+          <li data-i18n="tag.fatloss">Saisonal frisch</li>
+          <li data-i18n="tag.nutrition">Regional bezogen</li>
+          <li data-i18n="tag.mindset">Persönlich beraten</li>
+        </ul>
+        <p class="about__langs reveal" data-i18n="about.langs">Auf Deutsch · English · Español</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="location" id="standort">
+    <div class="section__index"><span class="num">05</span><span class="rule"></span><span>Standort</span></div>
+    <div class="loc__body reveal"><div class="loc__row"><span class="loc__k">Gebiet</span><span class="loc__v">Kiel Stadtgebiet und Umland, ca. 15 km Umkreis</span></div></div>
+  </section>
+
+  <section class="faq">
+    <div class="section__index"><span class="num">06</span><span class="rule"></span><span data-i18n="faq.label">FAQ</span></div>
+    <h2 class="faq__title reveal" data-i18n="faq.title">Häufige Fragen</h2>
+    <div class="faq__list">
+      <div class="faq__item reveal"><h3 data-i18n="faq1.q">Liefert ihr auch am selben Tag?</h3><p data-i18n="faq1.a">Ja, wenn die Bestellung bis 11 Uhr bei uns eingeht, liefern wir im Kieler Stadtgebiet in der Regel noch am selben Tag. Rufen Sie am besten kurz an, dann klären wir Uhrzeit und Adresse direkt.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq2.q">Kann ich einen Strauß nach eigenem Wunsch zusammenstellen lassen?</h3><p data-i18n="faq2.a">Sehr gern. Nennen Sie uns Anlass, Farbwelt, ungefähres Budget und ob es eher schlicht oder üppig sein soll – den Rest übernehmen wir. Auch Wunschblumen versuchen wir, für Sie zu beschaffen.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq3.q">Übernehmt ihr komplette Hochzeitsfloristik?</h3><p data-i18n="faq3.a">Ja. Von Brautstrauß und Anstecker über Tischdeko bis zur Kirchen- oder Locationdekoration planen wir alles mit Ihnen zusammen. Ein persönliches Beratungsgespräch ist dabei kostenlos.</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="section__index"><span class="num">07</span><span class="rule"></span><span data-i18n="nav.contact">Kontakt</span></div>
+    <h2 class="cta__title reveal" data-i18n-html="cta.title">Bereit für frische <span class="ital">Blumen?</span></h2>
+    <p class="cta__lead reveal" data-i18n="cta.lead">Ob spontaner Gruß, Trauerfloristik oder Ihre Hochzeit – schreiben Sie uns oder rufen Sie an. Wir beraten Sie ehrlich und finden das Passende.</p>
+    <div class="cta__actions reveal">
+      <a class="btn btn--solid" href="tel:04317858248">Anrufen · (0431) 7858248</a>
+      <a class="link-arrow" href="mailto:derbluetenzauber@t-online.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a class="footer__brand" href="#top">Der Blütenzauber</a>
+    <nav class="footer__social" aria-label="Social Media">
+      <a href="mailto:derbluetenzauber@t-online.de">E-Mail</a>
+      <a href="tel:04317858248">Anrufen</a>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Der Blütenzauber · <span data-i18n="footer.role">Blumen</span></p>
+    <nav class="footer__legal" aria-label="Rechtliches">
+      <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+    </nav>
+    <p class="footer__claim" data-i18n="footer.claim">Der Blütenzauber</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
