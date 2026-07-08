@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Restaurant Syrtaki — Restaurant</title>
+<meta name="description" content="Restaurant Syrtaki — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:title" content="Restaurant Syrtaki — Restaurant" />
+<meta property="og:description" content="Restaurant Syrtaki — Restaurant · Lünen — Website-Entwurf." />
+<meta property="og:image" content="assets/hero.jpg" />
+<link rel="stylesheet" href="fonts.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top" class="v-hero-center v-light s-luxe">
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">Restaurant Syrtaki</a>
+  <nav class="nav__links" aria-label="Navigation">
+    <a href="#about">Über uns</a>
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button class="lang-btn" type="button" data-lang="de">DE</button>
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
+    <a class="nav__cta" href="#contact" data-i18n="nav.cta">Kontakt</a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Menü" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Navigation">
+    <a href="#about">Über uns</a>
+    <a href="#karte">Speisekarte</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+  <a class="btn btn--solid mmenu__cta" href="#contact" data-i18n="hero.cta">Tisch reservieren</a>
+  <div class="lang lang--mobile" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-lang="de">DE</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="es">ES</button>
+  </div>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="hero.eyebrow">Griechische Küche in Lünen</span></p>
+        <h1 class="hero__title" data-i18n-html="hero.title">Gastfreundschaft,<br>die man <span class="ital">schmeckt.</span></h1>
+      </div>
+      <div class="hero__meta">
+        <p class="hero__lead" data-i18n="hero.lead">Frisch gegrilltes Fleisch, hausgemachte Meze und griechischer Wein — bei uns wird noch selbst gekocht. Kommen Sie vorbei und lassen Sie sich verwöhnen.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="tel:0230662233" data-i18n="hero.cta">Tisch reservieren</a>
+          <a class="link-arrow" href="mailto:rgrnert@aol.com"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero__figure reveal"><img src="assets/hero.jpg" alt="Restaurant Syrtaki" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__index"><span class="num">01</span><span class="rule"></span><span data-i18n="nav.about">Über uns</span></div>
+    <div class="about__body">
+      <figure class="about__figure reveal"><img src="assets/about.jpg" alt="Restaurant Syrtaki – Über uns" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')" /></figure>
+      <div class="about__text">
+        <h2 class="reveal" data-i18n-html="about.h2">Seit Jahren ein Stück Griechenland mitten in Lünen — das <span class="ital">Restaurant Syrtaki.</span></h2>
+        <p class="reveal" data-i18n="about.p1">Was 1998 als kleine Taverne begann, ist heute fester Treffpunkt für alle, die ehrliche griechische Küche lieben. Bei uns kommt nichts aus der Tüte: Wir marinieren unser Fleisch selbst, backen das Fladenbrot frisch und bereiten Tzatziki und Dips nach Familienrezept zu.</p>
+        <p class="reveal" data-i18n="about.p2">Ob Feierabend zu zweit, großer Familientisch oder Geburtstagsrunde — bei uns dürfen Sie sich Zeit lassen. Ein Ouzo zur Begrüßung, Musik im Hintergrund und ein Team, das Ihren Namen kennt. Genau so soll ein Abend beim Griechen sein.</p>
+        <ul class="tags reveal">
+          <li data-i18n="tag.strength">Holzkohlegrill</li>
+          <li data-i18n="tag.fatloss">Hausgemacht</li>
+          <li data-i18n="tag.nutrition">Frische Zutaten</li>
+          <li data-i18n="tag.mindset">Gastfreundschaft</li>
+        </ul>
+        <p class="about__langs reveal" data-i18n="about.langs">Auf Deutsch · English · Español</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="karte">
+    <div class="section__index"><span class="num">02</span><span class="rule"></span><span>Speisekarte</span></div>
+    <h2 class="menu__title reveal" data-i18n="offers.title">Unsere Karte</h2>
+    <div class="menu__cats">
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vorspeisen &amp; Meze</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Tzatziki</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Joghurt, Gurke, Knoblauch, Olivenöl, dazu Fladenbrot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gefüllte Weinblätter</span><span class="menu__dots"></span><span class="menu__price">6,50 €</span></div><p class="menu__desc">Weinblätter mit Reis, Kräutern, kalt serviert</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gebackener Feta</span><span class="menu__dots"></span><span class="menu__price">7,90 €</span></div><p class="menu__desc">Im Ofen mit Tomate, Zwiebel und Olivenöl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bifteki-Häppchen</span><span class="menu__dots"></span><span class="menu__price">8,40 €</span></div><p class="menu__desc">Kleine gefüllte Hacksteaks mit Schafskäse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Fritierte Calamari</span><span class="menu__dots"></span><span class="menu__price">9,80 €</span></div><p class="menu__desc">Zarte Tintenfischringe mit Zitrone und Aioli</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Saganaki</span><span class="menu__dots"></span><span class="menu__price">7,20 €</span></div><p class="menu__desc">In Butter gebratener Kefalograviera-Käse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Dolmades-Suppe (Avgolemono)</span><span class="menu__dots"></span><span class="menu__price">5,40 €</span></div><p class="menu__desc">Hühnerbrühe mit Reis und Zitroneneier-Bindung</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Meze-Platte für 2</span><span class="menu__dots"></span><span class="menu__price">16,90 €</span></div><p class="menu__desc">Auswahl warmer und kalter Vorspeisen zum Teilen</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Salate</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Bauernsalat (Choriatiki)</span><span class="menu__dots"></span><span class="menu__price">9,40 €</span></div><p class="menu__desc">Tomate, Gurke, Paprika, Zwiebel, Oliven, Feta</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Griechischer Salat klein</span><span class="menu__dots"></span><span class="menu__price">6,80 €</span></div><p class="menu__desc">Blattsalat mit Feta, Oliven und Hausdressing</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Hirtensalat mit Gyros</span><span class="menu__dots"></span><span class="menu__price">12,90 €</span></div><p class="menu__desc">Gemischter Salat mit warmen Gyrosstreifen</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Krautsalat</span><span class="menu__dots"></span><span class="menu__price">4,50 €</span></div><p class="menu__desc">Fein gehobelt mit Karotte und Essig-Öl-Dressing</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Rote-Bete-Salat mit Knoblauch</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Warme Rote Bete mit Skordalia</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Vom Holzkohlegrill</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros Teller</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Schweinegyros mit Tzatziki, Zwiebeln, Pommes</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Souvlaki (2 Spieße)</span><span class="menu__dots"></span><span class="menu__price">14,50 €</span></div><p class="menu__desc">Marinierte Schweinespieße, Reis, Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bifteki gefüllt</span><span class="menu__dots"></span><span class="menu__price">13,40 €</span></div><p class="menu__desc">Hacksteak mit Schafskäse, Pommes, Tzatziki</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lammkoteletts</span><span class="menu__dots"></span><span class="menu__price">21,90 €</span></div><p class="menu__desc">Vier Koteletts vom Grill mit Rosmarinkartoffeln</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Suflaki Hähnchen</span><span class="menu__dots"></span><span class="menu__price">14,20 €</span></div><p class="menu__desc">Hähnchenspieße mit Kräuterreis und Zaziki</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gemischte Grillplatte</span><span class="menu__dots"></span><span class="menu__price">18,90 €</span></div><p class="menu__desc">Gyros, Bifteki, Souvlaki, Wurst, Pommes, Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Lammhaxe</span><span class="menu__dots"></span><span class="menu__price">19,80 €</span></div><p class="menu__desc">Langsam gegart, mit Ofengemüse und Kartoffeln</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Grillplatte für 2</span><span class="menu__dots"></span><span class="menu__price">36,90 €</span></div><p class="menu__desc">Reichliche Auswahl vom Grill zum Teilen</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Aus dem Ofen &amp; Pfannengerichte</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Moussaka</span><span class="menu__dots"></span><span class="menu__price">13,90 €</span></div><p class="menu__desc">Aubergine, Hackfleisch, Kartoffeln, Béchamel</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gyros Hollandaise</span><span class="menu__dots"></span><span class="menu__price">14,40 €</span></div><p class="menu__desc">Gyros überbacken mit Sauce, dazu Pommes</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Pastitsio</span><span class="menu__dots"></span><span class="menu__price">12,90 €</span></div><p class="menu__desc">Nudelauflauf mit Hackfleisch und Béchamel</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kleftiko</span><span class="menu__dots"></span><span class="menu__price">17,90 €</span></div><p class="menu__desc">Lamm im Ofen mit Käse, Gemüse und Kräutern</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gefüllte Paprika</span><span class="menu__dots"></span><span class="menu__price">11,80 €</span></div><p class="menu__desc">Mit Reis und Hackfleisch, Tomatensauce</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Souzoukakia</span><span class="menu__dots"></span><span class="menu__price">12,40 €</span></div><p class="menu__desc">Hackröllchen in würziger Tomaten-Kreuzkümmel-Sauce</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Fischgerichte</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Gegrillte Dorade</span><span class="menu__dots"></span><span class="menu__price">18,90 €</span></div><p class="menu__desc">Ganze Dorade vom Grill mit Zitrone und Olivenöl</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gambas al ajillo</span><span class="menu__dots"></span><span class="menu__price">15,90 €</span></div><p class="menu__desc">Garnelen in Knoblauch-Olivenöl mit Brot</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Gegrillter Oktopus</span><span class="menu__dots"></span><span class="menu__price">19,40 €</span></div><p class="menu__desc">Mit Balsamico, Olivenöl und Kartoffelstampf</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Fischplatte gemischt</span><span class="menu__dots"></span><span class="menu__price">23,90 €</span></div><p class="menu__desc">Dorade, Garnelen, Calamari mit Salat</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Bakaliaros mit Skordalia</span><span class="menu__dots"></span><span class="menu__price">16,50 €</span></div><p class="menu__desc">Frittierter Kabeljau mit Knoblauchcreme</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Für die Kleinen</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Kleiner Gyros mit Pommes</span><span class="menu__dots"></span><span class="menu__price">7,50 €</span></div><p class="menu__desc">Portion für Kinder mit Tzatziki</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Chicken Nuggets mit Pommes</span><span class="menu__dots"></span><span class="menu__price">6,90 €</span></div><p class="menu__desc">Sechs Stück mit Ketchup</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Nudeln mit Tomatensauce</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Kleine Portion, dazu geriebener Käse</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Kleines Bifteki mit Reis</span><span class="menu__dots"></span><span class="menu__price">6,80 €</span></div><p class="menu__desc">Kinderportion Hacksteak</p></div>
+        </div>
+      </div>
+      <div class="menu__cat reveal">
+        <h3 class="menu__cat-title">Desserts &amp; Getränke</h3>
+        <div class="menu__items">
+          <div class="menu__item"><div class="menu__row"><span class="menu__name">Baklava</span><span class="menu__dots"></span><span class="menu__price">5,40 €</span></div><p class="menu__desc">Blätterteig mit Nüssen und Honig</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Galaktoboureko</span><span class="menu__dots"></span><span class="menu__price">5,80 €</span></div><p class="menu__desc">Grießcreme im Filoteig mit Sirup</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Joghurt mit Honig &amp; Walnüssen</span><span class="menu__dots"></span><span class="menu__price">4,90 €</span></div><p class="menu__desc">Griechischer Joghurt, cremig</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Eisvariation</span><span class="menu__dots"></span><span class="menu__price">5,50 €</span></div><p class="menu__desc">Drei Kugeln mit Sahne</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Ouzo (2 cl)</span><span class="menu__dots"></span><span class="menu__price">3,20 €</span></div><p class="menu__desc">Zur Begrüßung oder zum Abschluss</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Metaxa (2 cl)</span><span class="menu__dots"></span><span class="menu__price">3,80 €</span></div><p class="menu__desc">Griechischer Weinbrand</p></div><div class="menu__item"><div class="menu__row"><span class="menu__name">Griechischer Wein (0,2 l)</span><span class="menu__dots"></span><span class="menu__price">5,90 €</span></div><p class="menu__desc">Roséwein oder Retsina, offen</p></div>
+        </div>
+      </div></div>
+    <p class="menu__note reveal" data-i18n="offers.note">Alle Preise sind Beispielangaben und können abweichen. Aktuelle Preise finden Sie in unserer gedruckten Speisekarte im Lokal.</p>
+  </section>
+
+  <section class="gallery" id="galerie">
+    <div class="section__index"><span class="num">03</span><span class="rule"></span><span data-i18n="gal.label">Galerie</span></div>
+    <h2 class="gallery__title reveal" data-i18n="gal.title">Einblicke</h2>
+    <div class="gallery__grid reveal"><div class="gtile"><img src="assets/gallery_1.jpg" alt="Restaurant Syrtaki – Eindruck 1" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_2.jpg" alt="Restaurant Syrtaki – Eindruck 2" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_3.jpg" alt="Restaurant Syrtaki – Eindruck 3" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_4.jpg" alt="Restaurant Syrtaki – Eindruck 4" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_5.jpg" alt="Restaurant Syrtaki – Eindruck 5" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div><div class="gtile"><img src="assets/gallery_6.jpg" alt="Restaurant Syrtaki – Eindruck 6" loading="eager" decoding="async" onerror="this.style.display='none';this.parentElement.classList.add('img-missing')"/></div></div>
+  </section>
+
+  <section class="hours" id="zeiten">
+    <div class="section__index"><span class="num">04</span><span class="rule"></span><span data-i18n="hrs.label">Zeiten</span></div>
+    <div class="hours__body">
+      <h2 class="hours__title reveal" data-i18n="hrs.title">Öffnungszeiten</h2>
+      <div class="hours__grid reveal"><div class="hrow"><span class="hrow__d">Montag</span><span class="hrow__t">Ruhetag</span></div><div class="hrow"><span class="hrow__d">Dienstag – Freitag</span><span class="hrow__t">17:00 – 23:00</span></div><div class="hrow"><span class="hrow__d">Samstag</span><span class="hrow__t">17:00 – 23:30</span></div><div class="hrow"><span class="hrow__d">Sonntag &amp; Feiertage</span><span class="hrow__t">12:00 – 14:30 &amp; 17:00 – 22:30</span></div></div>
+      <p class="hours__note reveal" data-i18n="hrs.note">An Feiertagen können die Zeiten abweichen.</p>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="section__index"><span class="num">05</span><span class="rule"></span><span data-i18n="faq.label">FAQ</span></div>
+    <h2 class="faq__title reveal" data-i18n="faq.title">Häufige Fragen</h2>
+    <div class="faq__list">
+      <div class="faq__item reveal"><h3 data-i18n="faq1.q">Muss ich einen Tisch reservieren?</h3><p data-i18n="faq1.a">An Wochenenden und Feiertagen empfehlen wir eine Reservierung, da wir dann meist gut gefüllt sind. Unter der Woche finden Sie fast immer spontan einen Platz. Ein kurzer Anruf unter (02306) 62233 genügt.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq2.q">Habt ihr auch vegetarische Gerichte?</h3><p data-i18n="faq2.a">Auf jeden Fall. Von gefüllten Weinblättern über gebackenen Feta bis zu unserer großen Meze-Platte für Vegetarier bieten wir viele fleischlose Gerichte an. Sprechen Sie uns gern an, wir beraten Sie.</p></div>
+      <div class="faq__item reveal"><h3 data-i18n="faq3.q">Kann ich bei euch feiern oder größere Gruppen anmelden?</h3><p data-i18n="faq3.a">Sehr gern. Für Geburtstage, Familienfeiern oder Firmenrunden stellen wir Ihnen gerne Tische zusammen und besprechen ein passendes Menü. Rufen Sie uns einfach an, dann planen wir das gemeinsam.</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="section__index"><span class="num">06</span><span class="rule"></span><span data-i18n="nav.contact">Kontakt</span></div>
+    <h2 class="cta__title reveal" data-i18n-html="cta.title">Reservieren Sie Ihren<br><span class="ital">Tisch bei uns.</span></h2>
+    <p class="cta__lead reveal" data-i18n="cta.lead">Ein Anruf genügt und Ihr Platz ist sicher. Wir freuen uns auf Ihren Besuch im Restaurant Syrtaki.</p>
+    <div class="cta__actions reveal">
+      <a class="btn btn--solid" href="tel:0230662233">Anrufen · (02306) 62233</a>
+      <a class="link-arrow" href="mailto:rgrnert@aol.com"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a class="footer__brand" href="#top">Restaurant Syrtaki</a>
+    <nav class="footer__social" aria-label="Social Media">
+      <a href="mailto:rgrnert@aol.com">E-Mail</a>
+      <a href="tel:0230662233">Anrufen</a>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Restaurant Syrtaki · <span data-i18n="footer.role">Restaurant</span></p>
+    <nav class="footer__legal" aria-label="Rechtliches">
+      <a href="impressum.html" data-i18n="footer.imprint">Impressum</a>
+      <a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a>
+    </nav>
+    <p class="footer__claim" data-i18n="footer.claim">Restaurant Syrtaki</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
